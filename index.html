@@ -1,0 +1,29 @@
+<!--Author: Alexander May
+    Last Modified: 9/16/2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Phone Number Validator</title> 
+  </head>
+  <body>
+    <h1 aria-label="Phone Number Validator">Phone Number Validator</h1>
+    <section id="phone">
+      <div id="camera"></div>
+      <div id="display">
+        <label for="user-input" aria-label="Enter a phone number">Enter a Phone Number:</label>
+        <input id="user-input" type="text" aria-label="Enter phone number here" maxlength="20">
+        <div id="results-div"></div>
+      </div>
+      <div id="buttons">
+        <button id="check-btn" class="button" aria-label="Click to check number">Check</button>
+        <button id="clear-btn" class="button" aria-label="Click to clear output">Clear</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
